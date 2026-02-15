@@ -174,7 +174,7 @@ class SmoothMAD(SmoothMethod):
 class SmoothMSE(SmoothMethod):
     """
     +----------------+-------------------------------------------+
-    | math           | grid-search shrink p in [1..maxshrink]    |
+    | math           | tenary-search shrink p in [1..maxshrink]    |
     | config         | SmoothMSE(steps=N, maxshrink=S)           |
     +----------------+-------------------------------------------+
     +----------------+-------------------------------------------+
